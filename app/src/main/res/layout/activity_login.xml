@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:padding="10dp">
 
-    <TextView
+    <EditText
 
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -14,41 +14,33 @@
     <EditText
         android:id="@+id/etUsername"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"></EditText>
 
     <TextView
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Name" />
+        android:text="Password" />
 
     <EditText
-        android:id="@+id/etName"
+        android:id="@+id/etPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
-        android:inputType="textPassword"/>
-    <TextView
+        android:inputType="textPassword"></EditText>
 
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="SecondName" />
-    <EditText
-        android:id="@+id/etSecondName"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-
-    <TextView
-
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Age" />
-    <EditText
-        android:id="@+id/etAge"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
     <Button
-        android:id="@+id/bLogout"
-        android:text="Logout"
+        android:id="@+id/bLogin"
+        android:text="Login"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"></Button>
+
+    <TextView
+        android:id="@+id/tvRegisetLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:text="Register" />
+
 </LinearLayout>
